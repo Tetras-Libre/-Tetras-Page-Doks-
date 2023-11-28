@@ -1,0 +1,87 @@
+
+@include color-mode(dark) {
+  .btn-primary{
+    background-color: $tetra-green;
+    border: $tetra-green;
+    color: white;
+  }
+  .nav-link:hover{
+    color: $tetra-green;
+  }
+
+  a{
+    color: $tetra-green;
+  }
+  .nav-item a:hover{
+    color: $tetra-green;
+  }
+}
+
+
+@include color-mode(light) {
+  .btn-primary{
+    background-color: $tetra-green;
+    border: $tetra-green;
+    color: white;
+  }
+
+
+  .nav-item a:hover{
+    color: $tetra-green;
+  }
+
+a{
+    color: $tetra-green
+  }
+
+}
+
+// color on link:hover dark & light mode
+.offcanvas .nav-link:hover, .offcanvas .banner .nav a:hover, .banner .nav .offcanvas a:hover, .offcanvas .nav-link:focus, .offcanvas .banner .nav a:focus, .banner .nav .offcanvas a:focus {
+  color: $tetra-green;
+}
+
+// color top menu dark mode
+[data-bs-theme="dark"] .offcanvas .nav-link:hover, [data-bs-theme="dark"] .offcanvas .banner .nav a:hover, .banner .nav [data-bs-theme="dark"] .offcanvas a:hover, [data-bs-theme="dark"] .offcanvas .nav-link:focus, [data-bs-theme="dark"] .offcanvas .banner .nav a:focus, .banner .nav [data-bs-theme="dark"] .offcanvas a:focus {
+  color: $tetra-green;
+}
+//color button top right light mode
+[data-bs-theme="dark"] .search-form .form-control:focus, [data-bs-theme="dark"] .search-form .comment-form input[type="text"]:focus, .comment-form [data-bs-theme="dark"] .search-form input[type="text"]:focus, [data-bs-theme="dark"] .search-form .comment-form input[type="email"]:focus, .comment-form [data-bs-theme="dark"] .search-form input[type="email"]:focus, [data-bs-theme="dark"] .search-form .comment-form input[type="url"]:focus, .comment-form [data-bs-theme="dark"] .search-form input[type="url"]:focus, [data-bs-theme="dark"] .search-form .comment-form textarea:focus, .comment-form [data-bs-theme="dark"] .search-form textarea:focus, [data-bs-theme="dark"] .search-form .search-field:focus{
+  color: $tetra-green
+}
+
+// color button on click dark & light mode
+.btn-check:checked + .btn, .search-form .btn-check:checked + .search-submit, .comment-form .btn-check:checked + input[type="submit"], :not(.btn-check) + .btn:active, .search-form :not(.btn-check) + .search-submit:active, .comment-form :not(.btn-check) + input[type="submit"]:active, .btn:first-child:active, .search-form .search-submit:first-child:active, .comment-form input[type="submit"]:first-child:active, .btn.active, .search-form .active.search-submit, .comment-form input.active[type="submit"], .btn.show, .search-form .show.search-submit, .comment-form input.show[type="submit"]{
+  color: black;
+  background-color: $tetra-green;
+  border-color: $tetra-green;
+}
+
+//color field on focus dark & light mode
+[data-bs-theme="dark"] .search-form .form-control:focus, [data-bs-theme="dark"] .search-form .comment-form input[type="text"]:focus, .comment-form [data-bs-theme="dark"] .search-form input[type="text"]:focus, [data-bs-theme="dark"] .search-form .comment-form input[type="email"]:focus, .comment-form [data-bs-theme="dark"] .search-form input[type="email"]:focus, [data-bs-theme="dark"] .search-form .comment-form input[type="url"]:focus, .comment-form [data-bs-theme="dark"] .search-form input[type="url"]:focus, [data-bs-theme="dark"] .search-form .comment-form textarea:focus, .comment-form [data-bs-theme="dark"] .search-form textarea:focus, [data-bs-theme="dark"] .search-form .search-field:focus{
+  border-color: $tetra-green;
+}
+
+//color top navigation menu on Docs and Blogs
+.offcanvas .nav-link.active{
+  color: $tetra-green !important;
+}
+
+[data-bs-theme="dark"] .offcanvas .nav-link.active{
+  color: $tetra-green;
+}
+
+[data-bs-theme="dark"] .offcanvas .nav-link:hover, [data-bs-theme="dark"] .offcanvas .nav-link:focus{
+  color: $tetra-green;
+}
+
+.offcanvas .nav-link:hover, .offcanvas .nav-link:focus{
+  color: $tetra-green;
+}
+
+//image sizing
+
+img.lazyautosizes{
+  width: 200px;
+  object-fit: contain;
+}

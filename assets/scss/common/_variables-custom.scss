@@ -1,0 +1,19 @@
+// Put your custom SCSS variables here
+
+// Doks custom color scheme
+
+// Light mode
+$tetra-green : #5a8264;
+
+// Dark mode
+$tetra-green : #5a8264;
+
+// Put your custom SCSS variables here
+
+// Light mode
+$primary: #5a8264; // affects ToC links only, though `$link-color: $primary;`
+$link-color: #5a8264; // affects other links, except primary button variants
+
+// Dark mode
+$link-color-dark: #5a8264; // affect all links, except primary button variants
+$button-color-dark: $link-color-dark; // affects primary button variants
