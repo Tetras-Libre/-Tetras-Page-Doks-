@@ -17,7 +17,7 @@ seo:
   canonical: "" # custom canonical URL (optional)
   noindex: false # false (default) or true
 ---
-This Documentation will guide you to setting up this template.
+This documentation will guide you through setting up this template.
 
 ## Create Menu Item into Doc
 ### Main Menu Item
