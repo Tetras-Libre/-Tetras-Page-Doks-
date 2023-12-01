@@ -1,5 +1,5 @@
 title = "Tetras Doc'"
-baseurl = "/"
+baseurl = "./"
 canonifyURLs = false
 disableAliases = true
 disableHugoGeneratorInject = true

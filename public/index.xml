@@ -1,2 +1,60 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tetras Doc'</title><link>/</link><description>Recent content on Tetras Doc'</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>Copyright (c) 2023 Hyas</copyright><lastBuildDate>Thu, 07 Sep 2023 16:33:54 +0200</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>Example Post</title><link>/blog/example-post/</link><pubDate>Thu, 07 Sep 2023 16:27:22 +0200</pubDate><guid>/blog/example-post/</guid><description/></item><item><title>Set up</title><link>/docs/set-up/set-up/</link><pubDate>Thu, 07 Sep 2023 16:13:18 +0200</pubDate><guid>/docs/set-up/set-up/</guid><description>This Documentation will guide you to setting up this template.
-Create Menu Item into Doc Main Menu Item If you want to create new main menu Item as presented bellow follow those steps :</description></item><item><title>Privacy Policy</title><link>/privacy/</link><pubDate>Thu, 07 Sep 2023 17:19:07 +0200</pubDate><guid>/privacy/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tetras Doc&#39;</title>
+    <link>/</link>
+    <description>Recent content on Tetras Doc&#39;</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright (c) 2023 Hyas</copyright>
+    <lastBuildDate>Thu, 07 Sep 2023 16:33:54 +0200</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Example Post</title>
+      <link>/blog/example-post/</link>
+      <pubDate>Thu, 07 Sep 2023 16:27:22 +0200</pubDate>
+      
+      <guid>/blog/example-post/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Getting Started</title>
+      <link>/docs/set-up/getting-started/</link>
+      <pubDate>Thu, 07 Sep 2023 16:13:18 +0200</pubDate>
+      
+      <guid>/docs/set-up/getting-started/</guid>
+      <description>This documentation will guide you through setting up this template.
+Set up the project Clone the project with git clone https://gitlab.</description>
+    </item>
+    
+    <item>
+      <title>Adapt Tetras Doc&#39; to your project</title>
+      <link>/docs/set-up/adapt-tetras-doc-to-your-project/</link>
+      <pubDate>Thu, 07 Sep 2023 16:13:18 +0200</pubDate>
+      
+      <guid>/docs/set-up/adapt-tetras-doc-to-your-project/</guid>
+      <description>This documentation will guide you through setting up this template.
+Create Menu Item into Doc Main Menu Item If you want to create new main menu Item as presented bellow follow those steps :</description>
+    </item>
+    
+    <item>
+      <title>Set your documentation&#39;s URL</title>
+      <link>/docs/set-up/set-your-documentations-url/</link>
+      <pubDate>Thu, 07 Sep 2023 16:13:18 +0200</pubDate>
+      
+      <guid>/docs/set-up/set-your-documentations-url/</guid>
+      <description>Set up you own Nav Bar You have to change /config/_default/menus/menus.en.toml
+# [[docs]]# name = &amp;#34;Prologue&amp;#34;# weight = 10# identifier = &amp;#34;prologue&amp;#34;# url = &amp;#34;/docs/prologue/&amp;#34;# [[docs]]# name = &amp;#34;Help&amp;#34;# weight = 60# identifier = &amp;#34;help&amp;#34;# url = &amp;#34;/docs/help/&amp;#34;# [[docs]]# name = &amp;#34;Lorem&amp;#34;# weight = 70# identifier = &amp;#34;lorem&amp;#34;# url = &amp;#34;/docs/lorem/&amp;#34;[[guide]]name = &amp;#34;Lorem&amp;#34;weight = 10identifier = &amp;#34;lorem&amp;#34;url = &amp;#34;/guide/lorem/&amp;#34;[[tutorial]]name = &amp;#34;Lorem&amp;#34;weight = 10identifier = &amp;#34;lorem&amp;#34;url = &amp;#34;/tutorial/lorem/&amp;#34;[[main]]name = &amp;#34;Docs&amp;#34;url = &amp;#34;/docs/&amp;#34;# url = &amp;#34;/docs/1.</description>
+    </item>
+    
+    <item>
+      <title>Privacy Policy</title>
+      <link>/privacy/</link>
+      <pubDate>Thu, 07 Sep 2023 17:19:07 +0200</pubDate>
+      
+      <guid>/privacy/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
